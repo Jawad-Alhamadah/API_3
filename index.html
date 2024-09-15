@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Lab3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary bg-blue">
+        <div class="container-fluid">
+          <a class="navbar-brand">Logo</a>
+          
+         
+            <a class="home-link">Home</a>
+         
+        </div>
+      </nav>
+
+
+    <div id="container" class="row d-flex justify-content-center pt-5 bg-lightgray">
+
+      
+            <h3 class="text-center col-12 text-blue"> Is your website friendy</h3>
+            <input type="" placeholder="Enter Any Website Link" class=" col-5 mb-5" id="website-input">
+       
+    </div>
+
+    <div id="cards-container" class="row d-flex justify-content-center pt-5 bg-lightgray pb-3">
+
+        
+        <div class="card px-5 mx-1 my-2 d-flex align-items-center " style="width: 18rem;">
+            <img src="https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-xs-silver.png?v=a58d97a7" class="card-img-top" alt="...">
+            <div class="card-body">
+
+                <p class="card-text">Iphone xSmall</p>
+                <p class="card-text">375 x812</p>
+            </div>
+            <button class="btn btn-outline-info col-5 mb-5 purple-outline " onclick="open_url(1)">Choose</button>
+          </div>
+        <div class="card px-5 mx-1 my-2 d-flex align-items-center" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYJRFUgReRXau7DxSOQ4XaUT58LF443ElgfA&s" class="card-img-top" alt="...">
+            <div class="card-body">
+
+                <p class="card-text">galaxy medium</p>
+                <p class="card-text">412x 869</p>
+            </div>
+            <button class="btn btn-outline-info col-5 mb-5 purple-outline " onclick="open_url(2)">Choose</button>
+          </div>
+
+          <div class="card px-5 mx-1 my-2 d-flex align-items-center" style="width: 18rem;">
+            <img src="https://help.apple.com/assets/613FDE81C88FF868634BFD43/613FDE85C88FF868634BFD4B/en_US/bd46abe431396bd9f6995d2844cdd98d.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Ipad </p>
+                <p class="card-text">1024 x 1366</p>
+            </div>
+            <button class="btn btn-outline-info col-5 mb-5 purple-outline " onclick="open_url(3)">Choose</button>
+          </div>
+
+          <div class="card px-5 mx-1 my-2 d-flex align-items-center" style="width: 18rem;">
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/sa_en/ua43t5300auxum/gallery/sa-en-fhd-t5300-ua43t5300auxum-531622779?$650_519_PNG$" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Mac OS</p>
+              <p class="card-text">1920 x 1080</p>
+            </div>
+            <button class="btn btn-outline-info col-5 mb-5 purple-outline " onclick="open_url(4)">Choose</button>
+          </div>
+
+
+        
+
+
+    </div>
+
+    <div class="bg-lightgray button-pad-div"></div>
+    <div class="bg-blue text-center pt-3 pb-3 text-white"> 2023</div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
